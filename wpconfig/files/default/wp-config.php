@@ -14,10 +14,10 @@
  * @package WordPress
  */
 
-define('WP_REDIS_HOST', 'http://wordpress-2.tfgepv.0001.apse2.cache.amazonaws.com');
+define('WP_REDIS_HOST', 'wordpress.tfgepv.0001.apse2.cache.amazonaws.com');
  
-define('WP_HOME','http://wordpress-998390647.ap-southeast-2.elb.amazonaws.com');
-define('WP_SITEURL','http://wordpress-998390647.ap-southeast-2.elb.amazonaws.com');
+define('WP_HOME','http://Wordpress-1982903133.ap-southeast-2.elb.amazonaws.com');
+define('WP_SITEURL','http://Wordpress-1982903133.ap-southeast-2.elb.amazonaws.com');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -47,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'w8T]|RmRR_Sb!/?d|b,vn6(/@<Qcv{?Hg2yRF8X_aXaW=5W.`KDT+X|U&XI0{vV^');
-define('SECURE_AUTH_KEY',  'Mj]FCM(;6KV<LLK+n)Rq`Yz]TDw_x9{<%|t)h; }rnZp<s6W}(!Z[. }=S%(k7Kg');
-define('LOGGED_IN_KEY',    '^I{#o8).x%+lF]@vo-u;h1b_L=1o]@3o/lT/18(?ULkG70 7QvM|GVWkF!O,ue+g');
-define('NONCE_KEY',        ']3T*N$k]OihgTA-3vDcK)i-*5+<q!IN(B9bgD%9%{736-4-+#-q1pFTt,Itmc6+>');
-define('AUTH_SALT',        '7j``;~)?i2t7b1ZPH(eDPW9yZ|T)^@qBrd(j+JbDSSF lphSwS= 429l! uwc3P>');
-define('SECURE_AUTH_SALT', '?_0,hi#)o D>=aG$?t*IKK-rv`|;2cj-o?<W2Y@[~;!U8lajgkp-l~tA2IqD~w7J');
-define('LOGGED_IN_SALT',   'iG}k>y:3<HK=,x[,28&.,>{|I-]DV.6B(19_ vKcw=$-Vw2gyWawUNc3S/~-AG^T');
-define('NONCE_SALT',       '^QKcPQCJu]`jFbd0y[|#Pwt0`X2B+jqX)d/[3s2O(TBjUD&2jXZldP+$3/bt&&^~');
+define('AUTH_KEY',         '');
+define('SECURE_AUTH_KEY',  '');
+define('LOGGED_IN_KEY',    '');
+define('NONCE_KEY',        '');
+define('AUTH_SALT',        '');
+define('SECURE_AUTH_SALT', '');
+define('LOGGED_IN_SALT',   '');
+define('NONCE_SALT',       '');
 
 /**#@-*/
 
